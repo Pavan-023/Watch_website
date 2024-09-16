@@ -1,0 +1,132 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/copy-space-white-background-with-arrows_23-2148845468.jpg?t=st=1725878485~exp=1725882085~hmac=dac85067f3794163bd09564ecef6230c14fdac38fb8c47ec2ea59ea4a8dd3d3c&w=996");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color:rgb(7, 7, 102);
+}
+.a1{
+    height:40px;
+}
+a:hover{
+     color:blue; 
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70%;
+    font-size: 20px;
+    margin-top: 55px;
+}
+.arrival,.brand{
+    display:flex;
+    justify-content: space-around;
+}
+.head{
+color: #2323ab;
+text-align: center;
+font-size: 40px;
+}
+
+.A1,.A2,.A3,.A4{
+border: 0.1px  solid gray;
+padding: 1%;
+text-align: center;
+border-radius: 3%;
+}
+button{
+font-size: 1.1rem;
+COLOR:white;
+background-color:rgb(14, 14, 57);
+
+border: none;
+padding:3%;
+}
+button:hover{
+    background-color:orange;
+    color:midnightblue;
+    padding: 3%;
+}
+.A1:hover,.A2:hover,.A3:hover,.A4:hover{
+    box-shadow: 2px 2px 5px 5px rgb(96, 95, 95);
+    transform: scale(1.1);
+   /* background-color:rgb(69, 188, 235); */
+    background-color: white;
+}
+.story{
+    display: grid;
+    grid-template-columns: auto auto ;
+    background:linear-gradient(white,rgb(233, 194, 201),white);
+    
+    
+}
+.shead:hover{
+    margin-left: 20%;
+    font-family: sans-serif;
+    transform: scale(1.1);
+    transition-delay: 5ms;
+    transition-duration: 10s;
+}
+.simg{
+    margin-left: 40%;
+}
+.simg:hover{
+    transform: scale(1.1,1);
+    transition-delay: 0ms;
+    transition-duration: 3s;
+}
+.bhead{
+    text-align: center;
+    color: blue;
+    font-size: 50px;
+}
+.b1,.b2,.b3,.b4{
+    border: 0.1px solid gray;
+    padding: 1%;
+    text-align: center;
+    border-radius: 3%;
+}
+.b1:hover,.b2:hover,.b3:hover,.b4:hover{
+    transform: scale(1.1);
+    /* background-color:rgb(69, 188, 235); */
+    background-color:rgba(106, 195, 230, 0.352);
+    
+}
+.special{
+    margin-left: 10%;
+}
+.special:hover{
+    transform: scale(1.1,1);
+    transition-delay: 0ms;
+    transition-duration: 3s;
+}
+.spo:hover{
+    margin-top: 60px;
+}
+.spo{
+    /* margin-left: 20%;
+    font-family: serif;
+    transform: scaleY(1.1);
+    transition-delay: 5ms;
+    transition-duration: 10s;
+    font-size: 20px; */
+    margin-right: 40%;
+    font-size: 20px;
+    font-family: serif;
+    transform: scale(1.1);
+    transition-delay: 5ms;
+    transition-duration: 10s;
+    color:rgb(10, 10, 98);
+}
+.sp{
+    display: flex;
+    justify-content: space-around;
+    /* background: linear-gradient(black,blue,rgb(70, 70, 255));
+    color:rgb(255, 255, 255);
+    border-radius: 10px; */
+    
+}
+

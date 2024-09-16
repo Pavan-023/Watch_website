@@ -1,0 +1,130 @@
+body{
+    /* background: linear-gradient(blue,midnightblue); */
+    background-image: url("https://img.freepik.com/free-vector/paper-style-white-monochrome-background_23-2149017129.jpg?t=st=1725878307~exp=1725881907~hmac=e51729e76f8035d31cdaf2402a99ceb61be7fcfb805b883e3d1e62c93ee7f380&w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.n1{
+    color: rgb(3, 3, 84);
+    /* color: white; */
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2%;
+    margin-left: 50px;
+}
+.n1:hover{
+    color: rgb(3, 3, 84);
+    
+    transform: scale(1.2);
+    transition-delay: 0s;
+    transition-duration: 2s;
+}
+a{
+    text-decoration: none;
+    color:rgb(7, 7, 102);
+    column-gap: 200px;
+    
+}
+a:hover{
+    color:blue;
+}
+.a1{
+    height:40px
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40%;
+    /* margin-right: 50%; */
+    font-size: 20px;
+    margin-top: 55px;
+    
+}
+.n2{
+    margin-left: 50px;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(3, 3, 95);
+}
+.ig1{
+    padding: 12%;
+    padding-left: 20%;
+}
+.head{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+/* .ig3{
+    /* border-radius: 1%;
+    border: 5px solid black;
+    height:500px;
+   width: 400px;  */
+/*}*/
+img{
+    margin-left: 20%;
+}
+.ig3{
+    border:2px blue;
+    position: relative;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10vh);
+    }
+    75%{
+        transform: translateY(10vh);
+    }
+    100% {
+        transform: translateY(10vh);
+    }
+}
+
+h2{
+    margin-left: 100px;
+}
+.main{
+    /* color: rgb(26, 26, 86); */
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.di{
+    color: white;
+    background-color: rgb(98, 97, 97);
+    width: 200px;
+    height:35px;
+    text-align: center;
+    padding-top:2%;
+    box-shadow: 2px 2px 2px 2px slategrey;
+    border-color: slategrey;
+   margin-left:75px;
+   font-size: 15px;
+}
+.dj{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height:35px;
+    text-align: center;
+    font-size: 15px;
+    padding-top:2%;
+    box-shadow:2px 2px 2px 2px rgb(38, 38, 38);
+}
+.dj:hover,.di:hover{
+    transform: scale(1.2);
+    transition-delay: 0s;
+    transition-duration: 2s;
+}
